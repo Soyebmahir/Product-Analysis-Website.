@@ -1,11 +1,16 @@
 .header-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(186, 176, 246);
     padding: 20px;
     border-radius: 10%;
     box-shadow: 20px 20px 50px grey;
+}
+
+.header-box h1 {
+    margin-right: 30px;
+    color: rgb(56, 109, 109);
 }
 
 .header-box nav {
@@ -16,7 +21,7 @@
 .route-style {
     margin: 10px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 10px 10px 10px grey;
     border-radius: 10px;
 

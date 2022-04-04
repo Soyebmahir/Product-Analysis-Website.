@@ -4,7 +4,7 @@ import useDataChart from '../useDataChart/useDataChart';
 
 const Dashboard = () => {
     const [datas,setData]=useDataChart();
-    // console.log(datas);
+    
     return (
         <div>
             <Chart datas={datas}></Chart>
