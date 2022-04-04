@@ -1,0 +1,16 @@
+.pick-up-line h1 {
+    font-size: 80px;
+    margin: 0px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.intro img {
+    width: 400px;
+    height: 700px;
+}
