@@ -3,7 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
-            it's blogs
+        <h1>notFound</h1>
         </div>
     );
 };
