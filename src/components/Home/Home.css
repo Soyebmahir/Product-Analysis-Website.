@@ -3,6 +3,14 @@
     margin: 0px;
 }
 
+.pick-up-line p {
+    font-size: 20px;
+}
+
+.pick-up-line {
+    width: 50%;
+}
+
 .intro {
     display: flex;
     justify-content: space-around;
@@ -13,4 +21,13 @@
 .intro img {
     width: 400px;
     height: 700px;
+}
+
+.live-demo {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px grey;
+    background-color: aqua;
 }

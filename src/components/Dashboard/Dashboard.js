@@ -1,9 +1,13 @@
 import React from 'react';
+import Chart from '../Chart/Chart';
+import useDataChart from '../useDataChart/useDataChart';
 
 const Dashboard = () => {
+    const [datas,setData]=useDataChart();
+    // console.log(datas);
     return (
         <div>
-            its dashboard
+            <Chart datas={datas}></Chart>
         </div>
     );
 };
