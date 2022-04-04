@@ -1,19 +1,18 @@
 import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
+import './Header.css'
 
 const Header = () => {
     return (
         <div className='header-box'>
-            <div>
-
-            </div>
-            <div>
-                <CustomLink to="/home">Home</CustomLink>
-                <CustomLink to="/reviews">Reviews</CustomLink>
-                <CustomLink to="/dashboard">Dashboard</CustomLink>
-                <CustomLink to="/blogs">Blogs</CustomLink>
-                <CustomLink to="/about">About</CustomLink>
-            </div>
+          <h2>Review</h2>
+            <nav>
+                <CustomLink to="/home" className="route-style">Home</CustomLink>
+                <CustomLink to="/reviews" className="route-style">Reviews</CustomLink>
+                <CustomLink to="/dashboard" className="route-style">Dashboard</CustomLink>
+                <CustomLink to="/blogs" className="route-style">Blogs</CustomLink>
+                <CustomLink to="/about" className="route-style">About</CustomLink>
+            </nav>
         </div>
     );
 };

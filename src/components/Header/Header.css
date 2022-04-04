@@ -1,3 +1,20 @@
 .header-box {
-    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(186, 176, 246);
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.header-box nav {
+    display: flex;
+
+}
+
+.route-style {
+    margin: 10px;
+    font-weight: bold;
+
 }
