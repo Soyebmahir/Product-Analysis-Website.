@@ -27,6 +27,7 @@ const Home = () => {
                     <img src={img1}alt="" />
                 </div>
             </div>
+            <h1 className='demo'>Customer Reviews ({demoReviews.length})</h1>
             <div className='card'>
                 {
                     demoReviews.map(demoReview=><DemoReview

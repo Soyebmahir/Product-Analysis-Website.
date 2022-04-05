@@ -6,15 +6,18 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews,setReview]=useReviewData()
     return (
-        <div className='review-column'>
+       <div>
+           <h1 className='count-Review'>Customer Reviews ({reviews.length})</h1>
+            <div className='review-column'>
             {
                 reviews.map(review=><Review 
-                    review={review}
+                     review={review}
                     key={review.id}
                     ></Review>)
             }
             
         </div>
+       </div>
     );
 };
 
